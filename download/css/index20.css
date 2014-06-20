@@ -1,0 +1,211 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:''; content:none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align: baseline;}
+
+body {font-family:Arial; font-size:13px; background:#F4F4F4; color:#606060;}
+a, a:link, a:active {color:blue; text-decoration:none;}
+a:visited {color:#97BCD4;}
+a:hover {text-decoration:underline;}
+
+.clear {clear:both;}
+
+h3 {
+    font-size:26px;
+    line-height:40px;
+    margin:45px 0 10px 20px;
+}
+h4 {
+    font-size:15px;
+    line-height:15px;
+    font-weight:bold;
+    margin:18px 0 0 20px;
+}
+b {
+    font-weight:bold;
+}
+div.content {
+    width:940px;
+    margin:0 auto;
+}
+    div.content p.top_paragraph {
+        font-size:13px;
+        line-height:15px;
+        margin:18px 0 10px 20px;
+    }
+    div.content p {
+        font-size:13px;
+        line-height:15px;
+        margin:4px 0 17px 20px;
+    }
+    div.content ul {
+        margin:10px 0 0 0;
+    }
+        div.content li {
+            list-style:disc;
+            font-size:13px;
+            line-height:19px;
+            margin:0 0 0 45px;
+        }
+    div.content div.white_back {
+        width:860px;
+        height:298px;
+        font-size:13px;
+        line-height:15px;
+        margin:18px 0 35px;
+        padding:22px 40px 0;
+        background:url('/d/images/white_back.png') 0 0 no-repeat;
+    }
+    div.content div.white_back2 {
+    	height:auto;
+    	padding-bottom: 30px;
+    	-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+        background: #ffffff;
+    }
+    div.content div.white_back div.column {
+        float:left;
+        width:430px;
+    }
+    div.content div.white_back div.column {
+        float:left;
+        width:430px;
+    }
+    	div.content div.white_back div.column div.note {
+	        font-size: 11px;
+	        width: 300px;
+    	}
+#download-button {
+    cursor:pointer;
+    width:297px;
+    height:88px;
+}
+table.information {
+    width:297px;
+    background:#E8F1FE;
+    border:1px solid #E0E1E4;
+    margin:20px 0 0;
+}
+    table.information td {
+        padding:4px 10px;
+        border-bottom: 2px solid #F4F9FF;
+        font:normal 14px Arial;
+        line-height:14px;
+        height:23px;
+        color:black;
+        vertical-align:middle;
+    }
+    table td.first {
+        padding:0 10px;
+        width:30px;
+        font-weight:bold;
+    }
+table.steps td {
+    padding:4px 10px;
+    font:normal 16px Arial;
+    line-height:16px;
+    height:42px;
+    color:black;
+    vertical-align:middle;
+}
+table.steps td.first {
+    padding:0;
+    width:60px;
+    font-weight:bold;
+}
+table.steps td.last {
+    height:20px;
+    padding:0;
+}
+div.footer {
+    width:940px;
+    margin:38px auto 20px;
+    text-align:center;
+}
+div.footer p {
+    font-size:12px;
+    line-height:15px;
+    margin:0 0 0 10px;
+    color:black;
+}
+div.footer div {
+    font-size:12px;
+    line-height:15px;
+    margin:0 0 0 10px;
+}
+
+		#overlay {
+	        display: none;
+	        overflow: hidden;
+	        position: absolute;
+	        width: 438px;
+	        height: 238px;
+	        top: 50%;
+	        left: 50%;
+	        z-index: 10000;
+	        margin-top: -119px;
+	        margin-left: -219px;
+	        background: url('/images/overlay_bg2.png') no-repeat;
+	    }
+	    #overlay-close {
+	        position: absolute;
+	        cursor: pointer;
+	        width: 42px;
+	        height: 18px;
+	        top: 2%;
+	        left: 89%;
+	    }
+	    #overlay-download {
+	        position: absolute;
+	        width: 406px;
+	        height: 42px;
+	        top: 50%;
+	        left: 50%;
+	        margin-top: -21px;
+	        margin-left: -203px;
+	    }
+	    #overlay-title {
+	        position: absolute;
+	        top: 35px;
+	        left: 20px;
+	        font-family: Arial,Helvetica,"sans-serif";
+	        color: #369;
+	        font-size: 14px;
+	    }
+	    .overlay-img{
+            position: absolute;
+            left: 17px;
+            bottom: 25px;
+            padding: 0;
+        }
+        .free-and-safe {
+            position: absolute;
+            bottom: 26px;
+            left: 155px;
+            width: 303px;
+            font-size: 10px;
+            color: #666666;
+        }
+        .free-and-safe a {
+            color: #666666;
+            text-decoration: none;
+        }
